@@ -2,12 +2,12 @@
 ![Screen](img/screen.png)
 
 # How to install
-* Install `Visual Studio 2017 Community edition`
+* Install `Visual Studio 2017 Community edition` (required for YouCompleteMe)
 * Install `exuberant ctags`
 * Install `python3`
-* Install vim
-* Install vim-plug from `https://github.com/junegunn/vim-plug`
-* Copy vimfiles to ~/
+* Install gVim
+* `git clone https://github.com/dudekmichal/gvimrc`
+* Copy vimrc and vimfiles to ~/
 * Run gVim
 * `:PlugInstall`
 * In vimfiles/plugged/YouCompleteMe:
