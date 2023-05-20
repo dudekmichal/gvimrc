@@ -1,3 +1,6 @@
+# How it looks like
+![Screen](img/screen.png)
+
 # How to install
 * Install `Visual Studio 2017 Community edition`
 * Install `exuberant ctags`
