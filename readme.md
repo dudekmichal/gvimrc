@@ -12,3 +12,9 @@
 * `:PlugInstall`
 * In vimfiles/plugged/YouCompleteMe:
 `python3 install.py --clangd-completer --msvc=15`
+
+# Tips
+* `:terminal` run internal terminal
+* `<leader>hp` show hunk preview (gitgutter)
+* `<leader>u` toggle undo tree
+* `grep -Rnwi . -e 'sth'` search recursively in current directory
