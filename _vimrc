@@ -1,34 +1,35 @@
-call plug#begin('~/vimfiles/plugged')
-Plug 'preservim/nerdtree'
-Plug 'tomasiser/vim-code-dark'
-Plug 'tpope/vim-commentary'
-Plug 'airblade/vim-gitgutter'
-Plug 'chrisbra/colorizer'
-Plug 'Yggdroot/indentLine'
-Plug 'jeetsukumaran/vim-indentwise'
-Plug 'bfrg/vim-cpp-modern'
-Plug 'itchyny/vim-cursorword'
-Plug 'bounceme/poppy.vim'
-Plug 'jiangmiao/auto-pairs'
-Plug 'vim-syntastic/syntastic'
-Plug 'itchyny/lightline.vim'
-Plug 'kien/ctrlp.vim'
-Plug 'preservim/tagbar'
-Plug 'mbbill/undotree'
-Plug 'terryma/vim-multiple-cursors'
-Plug 'farmergreg/vim-lastplace'
-Plug 'ycm-core/YouCompleteMe'
-call plug#end()
-
-set guifont=Consolas:h11
-
 if has("gui_running")
-  set lines=45 columns=100
+	call plug#begin('~/vimfiles/plugged')
+	Plug 'preservim/nerdtree'
+	Plug 'tomasiser/vim-code-dark'
+	Plug 'tpope/vim-commentary'
+	Plug 'airblade/vim-gitgutter'
+	Plug 'chrisbra/colorizer'
+	Plug 'Yggdroot/indentLine'
+	Plug 'jeetsukumaran/vim-indentwise'
+	Plug 'bfrg/vim-cpp-modern'
+	Plug 'itchyny/vim-cursorword'
+	Plug 'bounceme/poppy.vim'
+	Plug 'jiangmiao/auto-pairs'
+	Plug 'vim-syntastic/syntastic'
+	Plug 'itchyny/lightline.vim'
+	Plug 'kien/ctrlp.vim'
+	Plug 'preservim/tagbar'
+	Plug 'mbbill/undotree'
+	Plug 'terryma/vim-multiple-cursors'
+	Plug 'farmergreg/vim-lastplace'
+	Plug 'ycm-core/YouCompleteMe'
+	call plug#end()
+
+	set lines=45 columns=100
+	set guifont=Consolas:h11
+	colorscheme deep-space
 endif
 
 set encoding=utf-8
 set fileencoding=utf-8
 set nocompatible
+set fileformats=dos
 set updatetime=100
 syntax on
 filetype on
@@ -44,8 +45,6 @@ set backspace=indent,eol,start
 
 set mouse=
 set ttymouse=
-
-colorscheme deep-space
 
 " let g:lightline = {'colorscheme': 'PaperColor'}
 let g:lightline = {'colorscheme': 'powerline'}
