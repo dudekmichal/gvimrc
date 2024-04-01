@@ -65,10 +65,10 @@ set tabstop=2
 set shiftwidth=2
 
 " Insert spaces instead of tabs
-set expandtab
+" set expandtab
 
 " See multiple space characters as tabstops
-set softtabstop=2
+" set softtabstop=2
 
 " Ignore case when searching
 set ignorecase
@@ -342,8 +342,10 @@ set laststatus=2
 " show some whitespaces
 set list!
 if has('gui_running')
-  set listchars=tab:▶\ ,trail:·,extends:\#,nbsp:.
+  set listchars=tab:»\ ,trail:·,extends:\#,nbsp:.
 else
   set listchars=tab:>.,trail:.,extends:\#,nbsp:.
 endif
 
+" set pythonthreehome=D:\\python\\Python311
+" set pythonthreedll=D:\\python\\Python311\\python311.dll
