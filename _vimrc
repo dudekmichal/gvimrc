@@ -16,6 +16,7 @@ Plug 'kien/ctrlp.vim'
 Plug 'preservim/tagbar'
 Plug 'mbbill/undotree'
 Plug 'terryma/vim-multiple-cursors'
+Plug 'farmergreg/vim-lastplace'
 Plug 'ycm-core/YouCompleteMe'
 call plug#end()
 
@@ -44,13 +45,10 @@ set backspace=indent,eol,start
 set mouse=
 set ttymouse=
 
-" colorscheme 256_noir
-" colorscheme codedark
 colorscheme deep-space
 
 " let g:lightline = {'colorscheme': 'PaperColor'}
-let g:lightline = {'colorscheme': 'jellybeans'}
-" let g:lightline = {'colorscheme': 'darcula'}
+let g:lightline = {'colorscheme': 'powerline'}
 
 "Highlight searching
 set hlsearch
@@ -338,6 +336,11 @@ set noswapfile
 
 " lightline
 set laststatus=2
+
+" lastplace
+let g:lastplace_ignore = "gitcommit,gitrebase,svn,hgcommit"
+let g:lastplace_ignore_buftype = "quickfix,nofile,help"
+let g:lastplace_open_folds = 0
 
 " show some whitespaces
 set list!
