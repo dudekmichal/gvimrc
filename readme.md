@@ -2,8 +2,8 @@
 ![Screen](img/screen.png)
 
 # How to install
-* Install `Visual Studio 2017 Community edition` (required for YouCompleteMe)
-* Install `exuberant ctags`
+* Install `Visual Studio 2022` (required for YouCompleteMe)
+* Install `cmake`: https://cmake.org/download/
 * Install `python3`
 * Install gVim
 * `git clone https://github.com/dudekmichal/gvimrc`
@@ -11,7 +11,7 @@
 * Run gVim
 * `:PlugInstall`
 * In vimfiles/plugged/YouCompleteMe:
-`python3 install.py --clangd-completer --msvc=15`
+`python install.py --clangd-completer --msvc=17`
 
 # Tips
 * `:terminal` run internal terminal
