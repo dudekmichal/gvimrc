@@ -347,5 +347,3 @@ else
   set listchars=tab:>.,trail:.,extends:\#,nbsp:.
 endif
 
-" set pythonthreehome=D:\\python\\Python311
-" set pythonthreedll=D:\\python\\Python311\\python311.dll
